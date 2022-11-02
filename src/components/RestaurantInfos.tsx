@@ -9,7 +9,7 @@ function RestaurantInfos() {
     <RestaurantInfosStyled>
       <h2>Descrição</h2>
       <p>{ restaurant.description }</p>
-      <h2>Taixa de preço</h2>
+      <h2>Faixa de preço</h2>
       <p>{ restaurant.price_range }</p>
       <hr/>
       <h2>Horário de funcionamento</h2>
