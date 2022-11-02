@@ -64,4 +64,4 @@ O Design foi fornecido para a execução do desafio.
 
 ---
 
-### (Deploy)[]
+### (Deploy)[https://web-app-restaurants-ts.vercel.app/restaurants]
