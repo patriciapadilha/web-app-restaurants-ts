@@ -29,7 +29,7 @@ function ListRestaurants() {
         <div>
           {filterRestaurants && filterRestaurants.map((restaurant) => (
             <Link to={`/restaurants/${ restaurant.id }`} key={ restaurant.id }>
-                <section>
+                <section data-testid="restaurant-card">
                   <h2>{restaurant.name}</h2>
               </section>
             </Link>

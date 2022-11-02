@@ -34,6 +34,10 @@ Ou com o Docker:
 
 ### ⚙️ Executando os testes
 
+  - Modo headless: `npm run test` (no terminal)
+ 
+  - Modo it: `npm run test:open` (no browser)
+
 ---
 
 ### 🛠️ Construído com
@@ -49,6 +53,8 @@ Ou com o Docker:
 * [Styled Components](https://styled-components.com/) - Usada template literals do JavaScript para adicionar estilização com CSS para componentes.
 
 * [phosphor-react](https://phosphoricons.com/) - Uma lib de ícones flexível para interfaces, diagramas, apresentações
+
+* [cypress](https://docs.cypress.io/) - Ferramenta de desenvolvimento de testes para aplicações Front-end.
  
 ---
 
@@ -57,3 +63,5 @@ Ou com o Docker:
 O Design foi fornecido para a execução do desafio.
 
 ---
+
+### (Deploy)[]

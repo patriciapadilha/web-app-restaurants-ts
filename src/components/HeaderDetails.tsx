@@ -15,12 +15,12 @@ function HeaderDetails() {
     <HeaderDetailsStyled>
       <button onClick={() => navigate('/restaurants')}>
         <CaretLeft size={10} />
-        <h2>Voltar</h2>
+        <h2 data-testid="btn-return">Voltar</h2>
       </button>
-      <div className="banner">
+      <div className="banner" data-testid="restaurant-name">
         <img src={Logo} alt="" />
         <div className="banner-text">
-          <h1>{ restaurant.name }</h1>
+          <h1 data-testid="restaurant-name">{ restaurant.name }</h1>
           <p>{ restaurant.telephone }</p>
           <p>{ restaurant.website }</p>
         </div>
