@@ -52,6 +52,7 @@ export const HeaderDetailsStyled = styled.header `
     gap: 5px;
     background-color: transparent;
     border: none;
+    cursor: pointer;
 
     position: absolute;
     width: 68px;
