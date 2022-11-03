@@ -21,12 +21,12 @@ Instale as dependências com:
 
 ### 📋 Executando
 
-É possivél executar a apliacação de duas formas:
+É possivél executar a aplicação de duas formas:
 Com o script criado pelo React:
   - Rode o comando `npm start` e aguarde a abertura de uma página no seu navegador.
 
 Ou com o Docker:
-  - Certifique-se de ter o docker instalado em usa máquina. Para mais informações sobre o [Docker](https://www.docker.com/)
+  - Certifique-se de ter o docker instalado em sua máquina. Para mais informações sobre o [Docker](https://www.docker.com/)
 
   - Rode o comando `docker-compose up -d` e aguarde a montagem do container, acesse http://localhost:3000/.
 
